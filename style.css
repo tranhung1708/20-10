@@ -1,0 +1,143 @@
+﻿/*
+     _ +----------------------------------------------+ _
+    /o)|   Design & Code HTML CSS by Trọng Nghiệp     |(o\
+   / / |        YM:t2n_al_1||Gmail:tronghiep92      | \ \
+  ( (_ |  _         http://ngankute.info           _  | _) )
+ ((\ \)+-/o)--------------------------------------(o\-+(/ /))
+ (\\\ \_/ /                                        \ \_/ ///)
+  \      /                                          \      /
+   \____/
+*/
+*{margin: 0;padding: 0;}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    color:#fcf;
+}
+ul#scroll{
+    width: 900%;   
+}
+ul#scroll li{
+    height: 400px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+#dapxe{
+    margin: 0 auto;
+    width: 500px;
+}
+#enter2{
+    width: 70px;height: 20px;
+    margin-top: -300px;margin-left: 400px;
+    cursor: pointer;
+}
+#menu{
+    width: 960px;height: 210px;
+    margin: 10px auto 0;
+    direction: rtl;
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+#menu li{
+    margin: 5px 0;
+    list-style: none;
+    background: no-repeat right 50%;
+    text-indent: 55px;
+}
+#menu li a{
+    color: #4a295e;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family:'News Cycle', sans-serif;
+}
+#menu li a:hover,#menu li a.active{
+    color:#E5E5E5;
+    text-shadow: 1px 1px 1px #8080C0;
+    background: url(heart.png) no-repeat 0 50%;
+}
+div.item{
+    width: 940px;
+    height: 400px;
+    margin: 0 auto;
+    background: no-repeat 0px 0;
+}
+div.item h1{
+    text-transform: uppercase;
+    color: #4a295e;
+    margin-left:200px ;
+    font-size: 41px;
+}
+div.item>div{
+    margin-left: 200px;
+    height: 329px;
+    background-color: #592669!important;
+    padding: 10px;
+    text-align: justify;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+    overflow: hidden;
+}
+div.item>div p{
+    line-height:24px ;
+}
+img[alt='*']{
+    display: none;
+}
+#copy{
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 12px;
+    clear: both;
+}
+#copy:hover{
+    cursor: pointer;
+    color:#8080C0;
+}
+#friends span.more{
+    color: #800040;
+}
+#friends span.more:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#tuyenngon{
+    position: fixed;
+    background: url(bg-light-box.png);
+    border-radius:5px;
+    display: none;
+}
+#tuyenngon_main{
+    margin: 6px;
+    width: 960px;
+    height: 450px;
+    overflow-x: hidden;
+    background: #fff;
+    color: #555;
+    padding: 10px;
+    text-align: justify;
+    line-height: 24px;
+}
+#close{
+    position: absolute;
+    right:30px;top:20px;
+    background: #ccc;
+    color: #fff;
+    padding: 1px 4px;
+}
+#close:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.image-setting {
+    margin-left: 235px;
+}
